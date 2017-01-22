@@ -1,0 +1,80 @@
+/*	fonts and colors */
+body {
+	background: rgb(240, 240, 240);
+	color: rgb(20, 20, 20);
+	font-family: 'Open Sans', sans-serif;
+}
+.form-row {
+	padding: 10px 0;
+	display: flex;
+}
+
+.form-row label {
+	padding-right: 10px;
+}
+.form-row input {
+	flex: 1;
+}
+
+
+/*Custome design for the banner*/
+#banner {
+	background-image: url("https://unsplash.it/1000/250/?image=1050");
+	padding-top: 100px;
+  	padding-bottom: 100px;
+  	text-align: center;
+  	background-size: cover;
+  	color: white;
+}
+
+.btn-medium {
+	color: #808080;
+	border: 1px solid #808080;
+	border-radius: 50px;
+	font-weight: lighter;
+	opacity: 0.8;
+}
+
+.btn-medium:hover {
+	opacity: 1;
+	text-decoration: none;
+	color: #808080;
+}
+#header-avatar {
+  border-radius: 50%;
+  width: 100px;
+}
+.column-layout {
+	max-width: 1300px;
+	background: rgb(240, 240, 240);
+	
+	padding: 20px 50px; 
+	line-height: 1.65;
+	margin: 20px auto 0 auto;
+	display: flex;
+}
+
+.unique-coloumns {
+	padding: 20px;
+	margin-bottom: 20px;
+	flex: 1;
+	margin-right: 40px;
+	text-align: center;
+}
+
+.unique-coloumns:last-child {
+	margin-right: 0;
+}
+
+.unique-coloumns:nth-child(1){background-color: #c0dbe2;}
+.unique-coloumns:nth-child(2){background-color: #cdf1c3;}
+.unique-coloumns:nth-child(3){background-color: #ccb9da;}
+
+
+#footer {
+	display: flex;
+}
+#footer li {
+	text-align: right;
+	flex: 1;
+}
