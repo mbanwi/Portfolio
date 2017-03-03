@@ -59,11 +59,26 @@ body {
 .unique-coloumns:nth-child(2){background-color: #cdf1c3;}
 .unique-coloumns:nth-child(3){background-color: #ccb9da;}
 
-
-#footer {
-	display: flex;
+.section {
+	width: 29%;
+	float: left;
+	margin: 2% 2%;
+	text-align: center;
 }
-#footer li {
-	text-align: right;
-	flex: 1;
+footer {
+	background: #878E63;
+	width: 100%;
+	overflow: hidden;
+	}
+footer p, footer h3 {
+	color: #F1F0D1;
+}
+ul {
+	float: right;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+li {
+	display: inline;
 }
