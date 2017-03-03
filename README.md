@@ -1,2 +1,2 @@
 # Portfolio
-my simple landing page portfolio
+my simple portfolio landing page 
